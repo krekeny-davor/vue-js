@@ -1,15 +1,11 @@
-Preparation
-You need to prepare your development environment before you could start.
+Task: From static HTML to a Vue Instance
+In this task we use the basics of template interpolation.
 
-Please install the following things:
+Fulfill the following tasks:
 
- Install the Vetur extension for Visual Studio Code
-Helps your Editor to understand Vue better
- Install the Vue devtools for Chrome or Firefox
-Follow the instructions on this page https://devtools.vuejs.org/guide/installation.html
-The Chrome plugin should also work with the Brave Browser
-We recommend the Google Chrome browser for the whole VueJS Module
- Prepare a new folder and github repository to organize the coding tasks
-Use git as version control
-sync versions with github every day
- Install the Live Server extension for Visual Studio Code
+ Don't start from scratch. Use the provided resources in the src folder of this coding task.
+ Add Vue 3 from a CDN
+ Create a Vue Instance and mount it
+ The persons name John Doe should be located as a data property in the Vue Instance
+ Use text interpolation to display the persons name
+ Replace 1/24/2022, 12:34:25 PM with the current date and time by using a javascript expression. Take care of the en-us format. See also toLocaleString to solve this.
