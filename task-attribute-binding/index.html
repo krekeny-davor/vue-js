@@ -22,7 +22,7 @@
   <main>
     <div id="app" class="inside">
       <h1 v-text="headline"></h1>
-      <p :class="cssClasses">
+      <p>
         Directives are special attributes with the <code>v-</code> prefix.
         Directive attribute values are expected to be
         <strong>a single JavaScript expression</strong> (with the exception of
@@ -31,8 +31,8 @@
         DOM when the value of its expression changes. Let's review the example
         we saw in the introduction:
       </p>
-      <img v-bind="imageAttrs" />
     </div>
+    <img v-bind="imageAttrs" />
   </main>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="scripts.js"></script>
